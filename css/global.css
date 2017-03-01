@@ -1,0 +1,83 @@
+/** {
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.container {
+    background: lightgrey;
+    padding: 40px;
+}
+.card{
+    max-width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.25);
+    background: #ffffff;
+    display: inline-block;
+}
+.card-caption{
+    text-align: center;
+}*/
+img{
+    /*width: 100%;*/
+    width: 100%;
+height: 250px;
+}
+
+.rows{
+ margin-bottom: 20px;
+ padding-right: 20px;
+   }
+
+#app {
+    background: #FAF9F5;
+    padding: 20px;
+}
+#nav{
+    /*letter-spacing: 2px;*/
+    margin-top: 20px;
+}
+
+.border-right {
+    border-right: 1px solid lightblue;
+    margin-right: 10px;
+    padding-right: 20px !important;
+}
+
+.secondvarbar{
+    letter-spacing: 2px;
+}
+#form1{
+    margin-top: 20px;
+}
+#header{
+    color: orangered;
+   
+}
+.subheadings{
+    color: #0192B5;
+    margin-left: 20px;
+}
+.head{
+    color: #0192B5;
+}
+
+.card {
+    background: white;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    
+}
+.writername{
+    color: lightslategray;   
+}
+.prices{
+    color: lightgreen;
+}
+/*.card-caption{
+    color: darkgray
+}*/
