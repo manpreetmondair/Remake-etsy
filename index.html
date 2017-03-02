@@ -12,16 +12,15 @@
 <body>
     <main class="container-fluid">
        <div class="row">
-
-           <!--alternate way of dividing header-->
-           <div class="col-sm-1" id ="header">
+            <!--alternate way of dividing header-->
+               <div class="col-sm-1" id="header">
                <h1>Etsy</h1>
-            </div>
-           <div class="col-sm-5" id = "form1">
+                </div>
+           <div class="col-sm-5" id="form1">
                <div class="input-group ">
-                   <input type="text" class="form-control" placeholder="BoardGames">
+                   <input type="text" class="form-control" id="search" value="board games">
                     <span class="input-group-btn">
-                        <button class="btn btn-primary" type="button">Serach</button>
+                        <button class="btn btn-primary" id ="searchbutton" type="button">Serach</button>
                     </span>
                 </div>
            </div>
@@ -35,121 +34,142 @@
                        <span>Cart</span>
                    </li>
                </ul>
-    
-               
-            </div>
+             </div>
        </div>
-        <hr/>
+    <hr/>
         <div class="secondnavbar">
-            <ul class="list-inline">
-                <li><a href="#">Clothing & Accessories</a></li>
-                <li><a href="#">Jewelry</a></li>
-                <li><a href="#">Craft</a></li>
-                <li><a href="#">Supplies&Tolls</a></li>
-                <li><a href="#">Weddings</a></li>
-                <li><a href="#">Entertainment</a></li>
-                <li><a href="#">Home & Living</a></li>
-                <li><a href="#">Kids & Baby</a></li>
-                <li><a href="#">Vintage</a></li>
-            </ul>
-             
-<!--            Clothing & Accessories  Jewelry  Craft Supplies & Tools  Weddings  Entertainment  Home & Living  Kids & Baby  Vintage
-              Craft Supplies & Tools
-                Weddings  Entertainment 
-                 Home & Living 
-                  Kids & Baby
-                    Vintage-->
+            <div class = "container">
+                    <div class = "row">
+                    <ul class="list-inline list-no-margin">
+                    <li><a href="#">Clothing & Accessories</a></li>
+                    <li><a href="#">Jewelry</a></li>
+                    <li><a href="#">Craft</a></li>
+                    <li><a href="#">Supplies&Tolls</a></li>
+                    <li><a href="#">Weddings</a></li>
+                    <li><a href="#">Entertainment</a></li>
+                    <li><a href="#">Home & Living</a></li>
+                    <li><a href="#">Kids & Baby</a></li>
+                    <li><a href="#">Vintage</a></li>
+                </ul>
+            </div>
+        </div>
         </div>
     </main><br/>
-
     <div class="container-fluid" id="app">
-        
         <div class = "row1 col-sm-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         All Categories
                         <div class = "subheadings">
-                         Toys & Games<br/>
-                         Art & Collectibles<br/>
-                         Craft Supplies & Tools<br/>
-                         Home & Living<br/>
-                         Books & Music<br/>
-                         Accessories<br/>
-                        Clothing<br/>
-                        Electronics & Accessories<br/>
-                        Jewelry<br/>
-                        Weddings<br/>
-                        Bags & Purses<br/>
+                            Toys & Games<br/>
+                            Art & Collectibles<br/>
+                            Craft Supplies & Tools<br/>
+                            Home & Living<br/>
+                            Books & Music<br/>
+                            Accessories<br/>
+                            Clothing<br/>
+                            Electronics & Accessories<br/>
+                            Jewelry<br/>
+                            Weddings<br/>
+                            Bags & Purses<br/>
                         </div>
                     </div>
                     </div>
-                    
                     <p class="text-center">Refine Your Search</p>
                     <div class="panel panel-default">
-                     <div class="panel-body"> Shop Location
+                    <div class="panel-body"> Shop Location
             <div class="radio subheadings">
-            <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-            Anywhwere
-        </label>
-            </div>
-        <div class="radio subheadings">
-            <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-            Unites States
-                </label>
-                </div>
-                   <span class= "head" >Choose a custom location</span>
-                    <hr>
-                    Item type
-                <div class="radio subheadings">
                 <label>
                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                AllI tems
-
+                Anywhwere
             </label>
+            </div>
+        <div class="radio subheadings">
+                <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Unites States
+                    </label>
+                    </div>
+            <span class= "head" >Choose a custom location</span>
+            <hr>Item type
+                 <div class="radio subheadings">
+                    <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    All Items
+                </label>
                 </div>
             <div class="radio subheadings">
                 <label>
                 <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Handmade
-                    </label>
-                    </div>
-                    <div class="radio subheadings">
-                <label>
+                    Handmade
+                        </label>
+                        </div>
+                        <div class="radio subheadings">
+                    <label>
                 <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Vintage
+                    Vintage
                     </label>
                     </div>
                     <hr>
                     Price ($)
-                    <div class="radio subheadings">
-
-            <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                Items Under 25
-            </label>
+                <div class="radio subheadings">
+                    <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    Items Under 25
+                </label>
+                    </div>
+                <div class="radio subheadings">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    $25 to $50
+                </label>
+                </div>
+                <div class="radio subheadings">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    $50 to $100
+                </label>
+                </div>
+                <div class="radio subheadings">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Over 100
+                </label>
+                </div>
+                <div class="btn-group" role="group" aria-label="...">
+                    <div class="buttons">
+                <button type="button" class="btn btn-default">Low</button>
+                <span><class="text-center">To</span>
+                <button type="button" class="btn btn-default">High</button>
+                 <button type="button" class="btn btn-default"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+                </div>
+                <hr/>
+               <p>Filter by color</p> 
+             <div class="input-color">
+              <ul class="list-inline"> 
+             <li><div class="color-box" style="background-color: red;"></div></li> 
+              <li><div class="color-box" style="background-color: orangered;"></div></li>
+              <li><div class="color-box" style="background-color: yellow;"></div></li>
+              <li><div class="color-box" style="background-color: green;"></div></li>
+              <li><div class="color-box" style="background-color: deepskyblue;"></div></li>
+              <li><div class="color-box" style="background-color: purple;"></div></li>
+              
+              </ul>
             </div>
-            <div class="radio subheadings">
-            <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                $25 to $50
-            </label>
-            </div>
-            <div class="radio subheadings">
-            <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                $50 to $100
-            </label>
-            </div>
-            <div class="radio subheadings">
-            <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Over 100
-            </label>
-            </div>
-        
-
+            <hr/>
+            <p>Ordering Options</p>
+            <div class="checkboxes"><input type="checkbox">  Accept Etsy Gifts Cards</div>
+            <div class="checkboxes"><input type="checkbox">  Customizable</div>
+            <hr>
+            <p>Ship to</p>
+             <select class="form-control">
+                        <option>United States</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
             </div>
             </div>
                 
@@ -158,15 +178,23 @@
                 h4
                 .panel.panel-default   -->
         </div>
+     <!--search results-->
+        <section id="searchResults" class="col-sm-9">
+                <p class="search-result-display">Did you mean the <a href=""><u>board game</u></a></p>
+                <p class="search-result-categories"><a href="">All categories</a> > "board game" (13,331 Results)<span class="pull-right">Sort by: Relevancy</span></p>
+
+                <br />
+
+                <div class="row" id="cards">
+                </div>
+
+            </section>
                 <div class="col-sm-10">
                     <div class="row" id="cards">
                         <!--<div class="col-sm-4 col-md-3">
                             <div class="card">
                                 <img src= "./img/image1.jpg">
-                                  <ul class="list-inline">
-                                    <li class="col-sm-6">ghsgdhs</li>
-                                    <li class="col-sm-4 col-sm-offset-2">gsfgd</li>
-                                    </ul>
+                                <span class = "text-muted"></span>
                              </div>
                             
                         </div>-->
